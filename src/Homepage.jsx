@@ -292,7 +292,7 @@ export class Homepage extends Component {
                 </div>
             </div>
 
-            <div className = "lg:mt-[570px] md:mt-[1450px] mt-[1650px] w-full relative flex justify-center">
+            <div className = "lg:mt-[530px] md:mt-[1450px] mt-[1650px] w-full relative flex justify-center">
                 <div className = "lg:flex justify-center items-center w-[60%] gap-5">
                     <div className = "">
                         <div className = "text-[27px] font-[700] text-[#353535FF] lg:text-left ">Our Clients Say
