@@ -1,5 +1,5 @@
-import { useState } from 'react'
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 import Homepage from './Homepage';
 import About from './About';
 import Services from './Services';
@@ -9,13 +9,22 @@ import Disclaimer from './Disclaimer';
 import Support from './Support';
 import Platform from './Platform';
 import FAQ from './FAQ';
-import './App.css'
+import './App.css';
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Homepage />} />
         <Route path="/about" element={<About />} />
@@ -31,4 +40,4 @@ function App() {
   );
 }
 
-export default App
+export default App;
