@@ -8,6 +8,7 @@ import Terms from './Terms';
 import Disclaimer from './Disclaimer';
 import Support from './Support';
 import Platform from './Platform';
+import FAQ from './FAQ';
 import './App.css'
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <Route path="/disclaimer" element={<Disclaimer />} />
         <Route path="/support" element={<Support />} />
         <Route path="/platform" element={<Platform />} />
+        <Route path="/faq" element={<FAQ />} />
       </Routes>
     </Router>
   );
