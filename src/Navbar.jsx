@@ -25,7 +25,7 @@ const Navbar = () => {
           isActive ? "text-[#22C480FF]" : "hover:text-[#22C480FF] transition"
         }
       >
-        Services
+        Service
       </NavLink>
       <NavLink
         to="/contact"
