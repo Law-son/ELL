@@ -6,6 +6,7 @@ import Services from './Services';
 import PrivacyPolicy from './PrivacyPolicy';
 import Terms from './Terms';
 import Disclaimer from './Disclaimer';
+import Support from './Support';
 import './App.css'
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/terms" element={<Terms />} />
         <Route path="/disclaimer" element={<Disclaimer />} />
+        <Route path="/support" element={<Support />} />
       </Routes>
     </Router>
   );
