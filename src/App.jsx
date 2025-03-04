@@ -3,6 +3,9 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Homepage from './Homepage';
 import About from './About';
 import Services from './Services';
+import PrivacyPolicy from './PrivacyPolicy';
+import Terms from './Terms';
+import Disclaimer from './Disclaimer';
 import './App.css'
 
 function App() {
@@ -14,6 +17,9 @@ function App() {
         <Route path="/" element={<Homepage />} />
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/terms" element={<Terms />} />
+        <Route path="/disclaimer" element={<Disclaimer />} />
       </Routes>
     </Router>
   );
