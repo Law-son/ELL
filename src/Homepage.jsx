@@ -520,7 +520,6 @@ export class Homepage extends Component {
                     </div>
                 </div>
                 
-
             </footer>
             
         </div>
