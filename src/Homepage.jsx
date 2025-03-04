@@ -93,7 +93,7 @@ export class Homepage extends Component {
             <div className = "bg-white w-full relative flex justify-center items-center py-40">
                 <div className = "absolute -top-48 bg-white p-7 lg:w-[70%] w-[90%]">
 
-                    <div className = "relative md:flex gap-4 items-center  ">
+                    <div className = "relative md:flex gap-4 items-start">
                         <div className = "flex justify-center items-center">
                             <div className = "border-2 border-[#E0E0E0FF] shadow-[0px_0px_1px_#171a1f12,0px_0px_2px_#171a1f1F] flex flex-col items-center px-5 py-7 rounded-[6px]">
                                 <img src = {Container} className = ""/>
