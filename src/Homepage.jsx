@@ -145,7 +145,7 @@ export class Homepage extends Component {
             </div>
 
 
-            <div className = "relative bg-[#2C2C2CFF] py-6 flex justify-center lg:mt-52 md:mt-[600px] mt-[1100px] md:pb-52 pb-32">
+            <div className = "relative bg-[#2C2C2CFF] py-6 flex justify-center lg:mt-72 md:mt-[600px] mt-[1100px] md:pb-52 pb-32">
                 <div className = "relative">
                     <div className = "text-[32px] font-[700] text-[#FFFFFFFF]">Top Investment Platform</div>
                     <div className = "text-[12px] font-[400] text-[#939393FF] mx-[20%] mt-3">Explore a robust and secure financial platform engineered to empower informed investment decisions and maximize wealth accumulation.
