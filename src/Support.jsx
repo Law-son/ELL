@@ -8,7 +8,7 @@ import Surf from "./Images/Surf.png";
 import Timer from "./Images/Timer.png";
 import Location from "./Images/Location.png";
 import S1 from "./Images/S1.png";
-import S2 from "./Images/S2.png";
+import S2 from "./Images/s2.png";
 
 export class Support extends Component {
 
