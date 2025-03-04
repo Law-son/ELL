@@ -91,7 +91,7 @@ export class Homepage extends Component {
             </header>
 
             <div className = "bg-white w-full relative flex justify-center items-center py-40">
-                <div className = "absolute -top-48 bg-white p-7 w-[70%]">
+                <div className = "absolute -top-48 bg-white p-7 lg:w-[70%] w-[90%]">
 
                     <div className = "relative md:flex gap-4 items-center  ">
                         <div className = "flex justify-center items-center">
