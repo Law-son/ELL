@@ -214,7 +214,7 @@ export class Homepage extends Component {
             </div>
 
             <div className = "bg-[#f4f8f6] mt-56 w-full relative pt-16 flex justify-center pb-52 ">
-                <div className = "w-[60%] lg:flex relative gap-12 justify-center items-center">
+                <div className = "w-[70%] lg:flex relative gap-12 justify-center items-center">
                     <div className = "text-left">
                         <div className = "text-[32px] font-[700] text-[#323332FF] text-center lg:text-left">Financial Markets</div>
                         <div className = "text-[14px] font-[400] text-[#171A1FFF] mt-5 ">Financial markets serve as the foundation of global capital distribution, driving price transparency, risk management, and strategic asset diversification across equities, forex, and commodity derivatives.  
@@ -230,7 +230,7 @@ export class Homepage extends Component {
             </div>
 
             <div className = "relative flex justify-center">
-                <div className = "absolute -top-28 w-[50%]">
+                <div className = "absolute -top-28 w-[70%]">
                     <div className = "flex justify-center">
                         <div className = "lg:flex justify-baseline gap-2">
                             <div className = "bg-[#FDFCFDFF] border-[1px] border-[#E5E5E5FF] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] py-8 px-7">
@@ -293,7 +293,7 @@ export class Homepage extends Component {
             </div>
 
             <div className = "lg:mt-[570px] md:mt-[1450px] mt-[1650px] w-full relative flex justify-center">
-                <div className = "lg:flex justify-center items-center w-[50%] gap-5">
+                <div className = "lg:flex justify-center items-center w-[60%] gap-5">
                     <div className = "">
                         <div className = "text-[27px] font-[700] text-[#353535FF] lg:text-left ">Our Clients Say
                         About Us
@@ -329,7 +329,7 @@ export class Homepage extends Component {
             </div>
 
             <div className = "mt-24 w-full flex justify-center mb-24">
-                <div className = "lg:w-[50%] w-[70%] items-center bg-[] rounded-[2px] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] bg-[linear-gradient(180deg,#303532_26.68%,#2B2B2B_66.61%)] border-[1px] border-[#B6B6B6FF] py-24 px-12">
+                <div className = "lg:w-[60%] w-[70%] items-center bg-[] rounded-[2px] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] bg-[linear-gradient(180deg,#303532_26.68%,#2B2B2B_66.61%)] border-[1px] border-[#B6B6B6FF] py-24 px-12">
                     <div className = "">
                         <div className = "text-[27px] font-[700] text-[#FFFFFF]">Start your crypto journey</div>
                     </div>
