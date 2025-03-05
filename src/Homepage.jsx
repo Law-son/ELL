@@ -639,8 +639,8 @@ export class Homepage extends Component {
                     </div>
                 </div>
             
-                <div className = "flex justify-center mt-10 mx-10">
-                    <div className = "flex gap-10 items-center justify-center ">
+                <div className = "flex justify-center mt-10">
+                    <div className = "flex gap-5 items-center justify-center -ml-10">
                         <div className = "flex md:gap-1 items-center">
                             <img src = {Logo} className = "w-[115px] h-[94px]"/>   
                             <div className = "text-[12px] text-[#171A1FFF] -ml-[30px] md:-ml-9 font-[400]">EXCHANGE LIGHT LIMITED</div>
