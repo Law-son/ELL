@@ -12,7 +12,7 @@ const faqs = [
   { question: "How can I open an account and deposit funds?", answer: "To create an account, simply complete the registration process and verify your identity (KYC). Deposits can be made through bank transfers, stablecoins, or other supported payment methods, ensuring seamless fund allocation to your trading portfolio." },
   { question: "What are the withdrawal policies and limits?", answer: "Withdrawals require identity verification (KYC) for security purposes. Minimum and maximum withdrawal thresholds apply, depending on the asset and transaction volume. Processing times vary based on network congestion and security protocols." },
   { question: "How does the platform ensure fund security and risk management?", answer: "We implement multi-layer security measures, including two-factor authentication (2FA), cold storage for digital assets, and encryption protocols to mitigate cybersecurity risks. Additionally, our platform employs risk management tools to enhance trading safety." },
-  { question: "What investment opportunities are available besides trading?", answer: "What investment opportunities are available besides trading?" },
+  { question: "What investment opportunities are available besides trading?", answer: "Users can generate passive income through staking, yield farming, and liquidity provision in capital markets. Additionally, our opportunities allow traders to diversify their revenue streams and optimize returns." },
 ];
 
 export class FAQ extends Component {
@@ -84,7 +84,7 @@ export class FAQ extends Component {
           </div>
           {this.state.openIndex === index && (
             <div className="p-4 border border-[#E4E4E4FF] rounded-[2px] bg-white mt-1">
-              <p className="text-[12px] font-[400] text-[#171A1FFF]">{faq.answer}</p>
+              <p className="text-[12px] text-left font-[400] text-[#171A1FFF]">{faq.answer}</p>
             </div>
           )}
         </div>
