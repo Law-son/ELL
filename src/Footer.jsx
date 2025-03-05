@@ -12,90 +12,95 @@ const Footer = () => {
     <div>
         <footer className = "w-full bg-[#EAEEECFF] pt-20 pb-10 hidden lg:block mt-28">
                             <div className = "flex justify-center items-start">
-                            <div className = "lg:flex gap-12 md:mx-10 items-start">
-                                <div className = "text-left">
-                                    <div className = "text-[12px] font-[700] text-[#171A1FFF]">About Company</div>
-                                    <div className = "flex items-center mt-3 gap-2">
-                                        <div className = "">
-                                            <img src = {Location} className = "object-cover size-4"/>
-                                        </div>
-                                        <div className = "text-[10px] font-[400] text-[#818281FF]">30 Millbank, London, United Kingdom</div>
-                                    </div>
-                                    <div className = "flex items-center mt-3 gap-2">
-                                        <div className = "">
-                                            <img src = {Timer} className = "object-cover size-4"/>
-                                        </div>
-                                        <div className = "text-[10px] font-[400] text-[#818281FF]">Everyday Available 24/7</div>
-                                    </div>
-                                    <div className = "text-[14px] font-[400] text-[#171A1FFF] mt-3 w-52">Empowering Security: Trusted, Regulated, and Fully Protected.</div>
-                                </div>
-            
-                                <div className = "text-left">
-                                    <div className = "text-[12px] font-[700] text-[#171A1FFF]">Quick Links</div>
-                                        <nav className="flex flex-col text-[12px] mt-3 gap-2 font-[400] text-[#171A1FFF]">
-                                            <Link to="/">Home</Link>
-                                            <Link to="/about">About</Link>
-                                            <Link to="/services">Services</Link>
-                                            <Link to="/platform">Platform</Link>
-                                            <Link to="https://direct.lc.chat/19062191/">Contact</Link>
-                                        </nav>
-                                </div>
-            
-                                <div className = "text-left">
-                                    <div className = "text-[12px] font-[700] text-[#171A1FFF]">Support</div>
-                                        <nav className="flex flex-col text-[12px] mt-3 gap-2 font-[400] text-[#171A1FFF]">
-                                            <Link to="/privacy-policy">Privacy Policy</Link>
-                                            <Link to="/terms">Terms & Conditions</Link>
-                                            <Link to="/disclaimer">Disclaimer</Link>
-                                            <Link to="/support">Support</Link>
-                                            <Link to="/faq">FAQ</Link>
-                                        </nav>
-                                </div>
-            
-                                <div className = "text-left">
-                                    <div className = "text-[12px] font-[700] text-[#171A1FFF]">Download App</div>
-                                    <div className = "flex gap-8 lg:w-[100%]">
-                                        <a href = "https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5">
-                                            <div className="flex bg-[#000000FF] border-[1px] border-[#9C9D9D00] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] mt-3 items-center rounded-[2px] px-2 gap-1">
-                                                <div className = "-ml-2">
-                                                    <img src = {Play} className = "object-cover"/>
-                                                </div>
-                                                <div className = "flex flex-col items-center">
-                                                    <div className = "text-[5px] font-[400] text-[#FFFFFFFF]">GET IT ON</div>
-                                                    <div className = "text-[9px] font-[400] text-[#FFFFFFFF]">Google Play</div>
-                                                </div>
+                                <div className = "lg:flex gap-12 md:mx-10 items-start">
+                                    <div className = "text-left">
+                                        <div className = "text-[12px] font-[700] text-[#171A1FFF]">About Company</div>
+                                        <div className = "flex items-center mt-3 gap-2">
+                                            <div className = "">
+                                                <img src = {Location} className = "object-cover size-4"/>
                                             </div>
-                                        </a>
-            
-                                        <a href = "https://apps.apple.com/app/easyfx6/id6740037390">
-                                            <div className="flex bg-[#FFFFFFFF] border-[1px] border-[#9C9D9D00] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] mt-3 items-center rounded-[2px] px-4 gap-1  py-[5.2px]">
-                                                <div className = "-ml-2">
-                                                    <img src = {Apple} className = "object-cover size-6"/>
-                                                </div>
-                                                <div className = "flex flex-col items-center">
-                                                    <div className = "text-[5px] font-[400] text-[#434443FF]">Download on the</div>
-                                                    <div className = "text-[9px] font-[400] text-[#353535FF]">App Store</div>
-                                                </div>
-                                            </div>
-                                        </a>
-            
-                                        
-                                    </div>
-            
-                                    <a href = "https://www.exchangelight.net/">
-                                        <div className="bg-[#FFFFFFFF] border-[1px] border-[#9C9D9D00] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] mt-3 flex flex-col items-center rounded-[2px] py-2 px-[18px] gap-1 lg:w-[100%]">
-                                                <div className = "flex justify-center">
-                                                    <img src = {Surf} className = "object-cover size-6"/>
-                                                </div>
-                                                <div className = "flex flex-col items-center justify-center mt-2">
-                                                    <div className = "text-[8px] font-[400] text-[#434443FF]">Surf on the</div>
-                                                    <div className = "text-[9px] font-[400] text-[#353535FF]">Web Version</div>
-                                                </div>
+                                            <div className = "text-[10px] font-[400] text-[#818281FF]">30 Millbank, London, United Kingdom</div>
                                         </div>
-                                    </a>
+                                        <div className = "flex items-center mt-3 gap-2">
+                                            <div className = "">
+                                                <img src = {Timer} className = "object-cover size-4"/>
+                                            </div>
+                                            <div className = "text-[10px] font-[400] text-[#818281FF]">Everyday Available 24/7</div>
+                                        </div>
+                                        <div className = "text-[14px] font-[400] text-[#171A1FFF] mt-3 w-52">Empowering Security: Trusted, Regulated, and Fully Protected.</div>
+                                    </div>
+                
+                                    <div className = "text-left">
+                                        <div className = "text-[12px] font-[700] text-[#171A1FFF]">Quick Links</div>
+                                            <nav className="flex flex-col text-[12px] mt-3 gap-2 font-[400] text-[#171A1FFF]">
+                                                <Link to="/">Home</Link>
+                                                <Link to="/about">About</Link>
+                                                <Link to="/services">Services</Link>
+                                                <Link to="/platform">Platform</Link>
+                                                <Link to="https://direct.lc.chat/19062191/">Contact</Link>
+                                            </nav>
+                                    </div>
+                
+                                    <div className = "text-left">
+                                        <div className = "text-[12px] font-[700] text-[#171A1FFF]">Support</div>
+                                            <nav className="flex flex-col text-[12px] mt-3 gap-2 font-[400] text-[#171A1FFF]">
+                                                <Link to="/privacy-policy">Privacy Policy</Link>
+                                                <Link to="/terms">Terms & Conditions</Link>
+                                                <Link to="/disclaimer">Disclaimer</Link>
+                                                <Link to="/support">Support</Link>
+                                                <Link to="/faq">FAQ</Link>
+                                            </nav>
+                                    </div>
+                
+                                    <div className = "text-left">
+                                        <div className = "text-[12px] font-[700] text-[#171A1FFF]">Download App</div>
+
+                                        <div className = "flex flex-col justify-center items-start lg:w-[100%]">
+
+                                            <div className = "flex justify-center gap-3">
+                                                <a href = "https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5">
+                                                    <div className="flex bg-[#000000FF] border-[1px] border-[#9C9D9D00] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] mt-3 items-center rounded-[2px] px-2 gap-1">
+                                                        <div className = "-ml-2">
+                                                            <img src = {Play} className = "object-cover"/>
+                                                        </div>
+                                                        <div className = "flex flex-col items-center">
+                                                            <div className = "text-[5px] font-[400] text-[#FFFFFFFF]">GET IT ON</div>
+                                                            <div className = "text-[9px] font-[400] text-[#FFFFFFFF]">Google Play</div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                    
+                                                <a href = "https://apps.apple.com/app/easyfx6/id6740037390">
+                                                    <div className="flex bg-[#FFFFFFFF] border-[1px] border-[#9C9D9D00] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] mt-3 items-center rounded-[2px] px-4 gap-1  py-[5.2px]">
+                                                        <div className = "-ml-2">
+                                                            <img src = {Apple} className = "object-cover size-6"/>
+                                                        </div>
+                                                        <div className = "flex flex-col items-center">
+                                                            <div className = "text-[5px] font-[400] text-[#434443FF]">Download on the</div>
+                                                            <div className = "text-[9px] font-[400] text-[#353535FF]">App Store</div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+
+                                            <div className = "flex justify-center">
+                                                <a href = "https://www.exchangelight.net/">
+                                                <div className="bg-[#FFFFFFFF] border-[1px] border-[#9C9D9D00] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] mt-3 flex items-center rounded-[2px] py-[5.2px] px-3 gap-1">
+                                                        <div className = "-ml-2 flex justify-center">
+                                                            <img src = {Surf} className = "object-cover size-6"/>
+                                                        </div>
+                                                        <div className = "flex flex-col items-center justify-center">
+                                                            <div className = "text-[8px] font-[400] text-[#434443FF]">Surf on the</div>
+                                                            <div className = "text-[9px] font-[400] text-[#353535FF]">Web Version</div>
+                                                        </div>
+                                                </div>
+                                                </a>
+                                            </div>
+
+                                        </div>
+                                    </div>
                                     
                                 </div>
-                            </div>
                             </div>
             
                             <div className = "flex gap-10 items-center justify-center mt-10">
@@ -154,51 +159,56 @@ const Footer = () => {
                                             </nav>
                                     </div>
             
-                                    <div className = "text-left mt-[56px]">
-                                    <div className = "text-[12px] font-[700] text-[#171A1FFF]">Download App</div>
-                                    <div className = "flex gap-3 lg:w-[100%]">
-                                        <a href = "https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5">
-                                            <div className="flex bg-[#000000FF] border-[1px] border-[#9C9D9D00] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] mt-3 items-center  rounded-[2px] px-2 gap-1">
-                                                <div className = "-ml-2">
-                                                    <img src = {Play} className = "object-cover"/>
-                                                </div>
-                                                <div className = "flex flex-col items-center">
-                                                    <div className = "text-[5px] font-[400] text-[#FFFFFFFF]">GET IT ON</div>
-                                                    <div className = "text-[9px] font-[400] text-[#FFFFFFFF]">Google Play</div>
-                                                </div>
-                                            </div>
-                                        </a>
+                                    <div className = "text-left mt-14">
+                                        <div className = "text-[12px] font-[700] text-[#171A1FFF]">Download App</div>
 
-                                        <a href = "https://apps.apple.com/app/easyfx6/id6740037390">
-                                            <div className="flex bg-[#FFFFFFFF] border-[1px] border-[#9C9D9D00] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] mt-3 items-center rounded-[2px] px-2 gap-1">
-                                                <div className = "-ml-2">
-                                                    <img src = {Apple} className = "object-cover"/>
-                                                </div>
-                                                <div className = "flex flex-col items-center">
-                                                    <div className = "text-[5px] font-[400] text-[#434443FF]">Download on the</div>
-                                                    <div className = "text-[9px] font-[400] text-[#434443FF]">App Store</div>
-                                                </div>
+                                        <div className = "flex flex-col justify-center items-start lg:w-[100%]">
+
+                                            <div className = "flex justify-center gap-3">
+                                                <a href = "https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5">
+                                                    <div className="flex bg-[#000000FF] border-[1px] border-[#9C9D9D00] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] mt-3 items-center rounded-[2px] px-2 gap-1">
+                                                        <div className = "-ml-2">
+                                                            <img src = {Play} className = "object-cover"/>
+                                                        </div>
+                                                        <div className = "flex flex-col items-center">
+                                                            <div className = "text-[5px] font-[400] text-[#FFFFFFFF]">GET IT ON</div>
+                                                            <div className = "text-[9px] font-[400] text-[#FFFFFFFF]">Google Play</div>
+                                                        </div>
+                                                    </div>
+                                                </a>
+                    
+                                                <a href = "https://apps.apple.com/app/easyfx6/id6740037390">
+                                                    <div className="flex bg-[#FFFFFFFF] border-[1px] border-[#9C9D9D00] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] mt-3 items-center rounded-[2px] px-4 gap-1  py-[5.2px]">
+                                                        <div className = "-ml-2">
+                                                            <img src = {Apple} className = "object-cover size-6"/>
+                                                        </div>
+                                                        <div className = "flex flex-col items-center">
+                                                            <div className = "text-[5px] font-[400] text-[#434443FF]">Download on the</div>
+                                                            <div className = "text-[9px] font-[400] text-[#353535FF]">App Store</div>
+                                                        </div>
+                                                    </div>
+                                                </a>
                                             </div>
-                                        </a>
-            
-                                        
-                                    </div>
-            
-                                    <a href = "https://www.exchangelight.net/">
-                                        <div className="bg-[#FFFFFFFF] border-[1px] border-[#9C9D9D00] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] mt-3 flex flex-col items-center rounded-[2px] py-2 px-[18px] gap-1 lg:w-[100%]">
-                                                <div className = "flex justify-center">
-                                                    <img src = {Surf} className = "object-cover size-6"/>
-                                                </div>
-                                                <div className = "flex flex-col items-center justify-center mt-2">
-                                                    <div className = "text-[8px] font-[400] text-[#434443FF]">Surf on the</div>
-                                                    <div className = "text-[9px] font-[400] text-[#353535FF]">Web Version</div>
-                                                </div>
+
+                                            <div className = "flex justify-center">
+                                                <a href = "https://www.exchangelight.net/">
+                                                <div className="bg-[#FFFFFFFF] border-[1px] border-[#9C9D9D00] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] mt-3 flex items-center rounded-[2px] py-[5.2px] px-3 gap-1">
+                                                        <div className = "-ml-2 flex justify-center">
+                                                            <img src = {Surf} className = "object-cover size-6"/>
+                                                        </div>
+                                                        <div className = "flex flex-col items-center justify-center">
+                                                            <div className = "text-[8px] font-[400] text-[#434443FF]">Surf on the</div>
+                                            <div className = "text-[9px] font-[400] text-[#353535FF]">Web Version</div>
+                                            </div>
+
+                                            </div>
+                                            </a>
+                                            </div>
+
                                         </div>
-                                    </a>
-                                    
-                                </div>
                                     </div>
                                 </div>
+                            </div>
                                     
                                 <div className = "flex justify-center mt-10 mx-10">
                                     <div className = "flex gap-10 items-center justify-center ">
