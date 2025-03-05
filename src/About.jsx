@@ -135,7 +135,7 @@ export class About extends Component {
                     </div>
 
 
-                    <div className = "w-full flex justify-center items-center relative md:mt-[400px] lg:mt-[600px] mt-[350px]">
+                    <div className = "w-full flex justify-center items-center relative md:mt-[400px] lg:mt-[600px] mt-[270px]">
                         <div className = "w-[92%] lg:flex justify-center items-center gap-10 bg-[#EAEEECFF] md:p-20 p-5">
                             <div className = "w-full flex justify-center">
                                 <img src = {Image10} className = "object cover"/>
