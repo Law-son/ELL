@@ -156,9 +156,9 @@ const Footer = () => {
             
                                     <div className = "text-left mt-[56px]">
                                     <div className = "text-[16px] font-[700] text-[#171A1FFF]">Download App</div>
-                                    <div className = "flex gap-8 lg:w-[100%]">
+                                    <div className = "flex lg:w-[100%]">
                                         <a href = "https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5">
-                                            <div className="flex bg-[#000000FF] border-[1px] border-[#9C9D9D00] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] mt-3 items-center rounded-[2px] px-2 gap-1">
+                                            <div className="flex bg-[#000000FF] border-[1px] border-[#9C9D9D00] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] mt-3 items-center  rounded-[2px] px-2 gap-1">
                                                 <div className = "-ml-2">
                                                     <img src = {Play} className = "object-cover"/>
                                                 </div>
@@ -168,15 +168,15 @@ const Footer = () => {
                                                 </div>
                                             </div>
                                         </a>
-            
+
                                         <a href = "https://apps.apple.com/app/easyfx6/id6740037390">
-                                            <div className="flex bg-[#FFFFFFFF] border-[1px] border-[#9C9D9D00] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] mt-3 items-center rounded-[2px] px-4 gap-1  py-[5.2px]">
+                                            <div className="flex bg-[#FFFFFFFF] border-[1px] border-[#9C9D9D00] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] mt-3 items-center rounded-[2px] px-2 gap-1">
                                                 <div className = "-ml-2">
-                                                    <img src = {Apple} className = "object-cover size-6"/>
+                                                    <img src = {Apple} className = "object-cover"/>
                                                 </div>
                                                 <div className = "flex flex-col items-center">
                                                     <div className = "text-[5px] font-[400] text-[#434443FF]">Download on the</div>
-                                                    <div className = "text-[9px] font-[400] text-[#353535FF]">App Store</div>
+                                                    <div className = "text-[9px] font-[400] text-[#434443FF]">App Store</div>
                                                 </div>
                                             </div>
                                         </a>
@@ -281,11 +281,11 @@ const Footer = () => {
                                                 </a>
             
                                                 <a href = "https://apps.apple.com/app/easyfx6/id6740037390">
-                                                    <div className="flex bg-[#FFFFFFFF] border-[1px] border-[#9C9D9D00] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] mt-3 items-center rounded-[2px] px-4 gap-1 py-2  w-[100%]">
+                                                    <div className="flex bg-[#FFFFFFFF] border-[1px] border-[#9C9D9D00] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] mt-3 items-center justify-center rounded-[2px] px-4 gap-1 py-2  w-[100%]">
                                                             <div className = "-ml-2">
                                                                 <img src = {Apple} className = "object-cover size-6"/>
                                                             </div>
-                                                            <div className = "flex flex-col items-center">
+                                                            <div className = "flex flex-col items-center just">
                                                                 <div className = "text-[5px] font-[400] text-[#434443FF]">Download on the</div>
                                                                 <div className = "text-[9px] font-[400] text-[#353535FF]">App Store</div>
                                                             </div>
