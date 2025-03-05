@@ -39,7 +39,7 @@ export class FAQ extends Component {
   render() {
     return (
         <div>
-            <header className = "pt-[26px] bg-[#f4f8f6] pb-[100px]">
+            <header className = "pt-[26px] bg-[#f4f8f6] md:pb-[100px]">
                 <div className = "md:flex items-center justify-center text-[#818281FF] md:gap-10 gap-5 text-[10px]">
                                     <div className = "flex gap-2 items-center justify-center">
                                         <img src = {Timer} className = "text-[#1DD75BFF] size-4"/>
@@ -96,7 +96,7 @@ export class FAQ extends Component {
 
 
             <div className = "mt-24 w-full flex justify-center mb-24">
-                <div className = "lg:w-[50%] w-[70%] items-center bg-[] rounded-[2px] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] bg-[linear-gradient(180deg,#303532_26.68%,#2B2B2B_66.61%)] border-[1px] border-[#B6B6B6FF] py-24 px-12">
+                <div className = "lg:w-[50%] w-[70%] items-center bg-[] rounded-[2px] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] bg-[linear-gradient(180deg,#303532_26.68%,#2B2B2B_66.61%)] border-[1px] border-[#B6B6B6FF] py-24 md:px-12 px-5">
                     <div className = "">
                         <div className = "text-[27px] font-[700] text-[#FFFFFF]">Start your crypto journey</div>
                     </div>
