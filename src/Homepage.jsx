@@ -438,7 +438,6 @@ export class Homepage extends Component {
             
             </footer>
             
-            
             <footer className = "w-full bg-[#EAEEECFF] pt-20 pb-10 lg:hidden md:block hidden mt-16">
                 <div className = "md:flex justify-center gap-10 mx-12 md:mx-0">
                     <div className = "md:mx-10">
