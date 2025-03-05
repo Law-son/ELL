@@ -591,7 +591,7 @@ export class Homepage extends Component {
                             </div>
                         </div>
 
-                        <div className = "mt-[20px] flex justify-center">
+                        <div className = "mt-[20px] flex justify-center px-5">
                             <div className = "text-left mt-14 flex flex-col justify-center items-center">
                                 <div className = "text-[16px] font-[700] text-[#171A1FFF]">Download App</div>
                                 <div className = "flex gap-3">
