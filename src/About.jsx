@@ -30,7 +30,7 @@ export class About extends Component {
   render() {
     return (
         <div>
-            <header className = "pt-[26px] bg-[#f4f8f6] pb-[100px]">
+            <header className = "pt-[26px] bg-[#f4f8f6] pb-[70px] md:pb-[100px]">
                 <div className = "md:flex items-center justify-center text-[#818281FF] md:gap-10 gap-5 text-[10px]">
                                     <div className = "flex gap-2 items-center justify-center">
                                         <img src = {Timer} className = "text-[#1DD75BFF] size-4"/>
@@ -60,7 +60,7 @@ export class About extends Component {
                 
             </header>
 
-            <div className = "bg-white w-full relative flex justify-center items-center pt-2 lg:pt-5">
+            <div className = "bg-white w-full relative flex justify-center items-center md:pt-2 lg:pt-5">
                 <div className = "bg-white p-7 md:w-[80%] w-[90%] lg:w-[70%]">
                     <div className = "lg:flex justify-center items-center gap-10 mt-16">
                         <div className = "flex flex-col justify-center text-left">
@@ -130,7 +130,7 @@ export class About extends Component {
                 </div>
             </div>
 
-            <div className = "w-full flex justify-center items-center relative mt-60">
+            <div className = "w-full flex justify-center items-center relative md:mt-60 mt-40">
                 <div className = "w-[70%] md:w-[50%] lg:flex justify-center items-center gap-10 bg-[#EAEEECFF] md:p-20 p-5">
                     <div className = "w-full">
                         <img src = {Image10} className = "object cover"/>
@@ -186,7 +186,7 @@ export class About extends Component {
                 </div>
             </div>
 
-            <div className = "mt-32 w-full relative flex justify-center">
+            <div className = "md:mt-32 mt-24 w-full relative flex justify-center">
                 <div className = "lg:flex justify-center items-center w-[70%] lg:w-[50%] gap-5">
                     <div className = "">
                         <div className = "text-[27px] font-[700] text-[#353535FF] lg:text-left ">Meet Our Expert 
