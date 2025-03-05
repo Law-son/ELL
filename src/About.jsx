@@ -61,7 +61,7 @@ export class About extends Component {
             </header>
 
             <div className = "bg-white w-full relative flex justify-center items-center pt-2 lg:pt-5">
-                <div className = "bg-white p-7 w-[70%]">
+                <div className = "bg-white p-7 md:w-[80%] w-[90%] lg:w-[70%]">
                     <div className = "lg:flex justify-center items-center gap-10 mt-16">
                         <div className = "flex flex-col justify-center text-left">
                             <div className = "md:text-[31px] text-[20px] font-[700] text-[#313131FF] text-center lg:text-left">Achieving #1 in Investment Needs.</div>
@@ -187,7 +187,7 @@ export class About extends Component {
             </div>
 
             <div className = "mt-32 w-full relative flex justify-center">
-                <div className = "lg:flex justify-center items-center w-[50%] gap-5">
+                <div className = "lg:flex justify-center items-center w-[70%] lg:w-[50%] gap-5">
                     <div className = "">
                         <div className = "text-[27px] font-[700] text-[#353535FF] lg:text-left ">Meet Our Expert 
                         Advisor
