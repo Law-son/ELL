@@ -142,7 +142,7 @@ export class Services extends Component {
             </div>
 
             <div className = "mt-32 flex justify-center">
-                <div className = "flex justify-center items-center lg:w-[50%] w-[70%] gap-12">
+                <div className = "flex justify-center items-center lg:w-[60%] w-[70%] gap-12">
                     <div className = "w-full lg:block hidden">
                         <img src = {Image2} className = ""/>
                     </div>
