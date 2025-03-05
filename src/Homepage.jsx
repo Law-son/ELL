@@ -158,7 +158,7 @@ export class Homepage extends Component {
                 </div>
             </div>
 
-            <div className = "mt-52 flex justify-center">
+            <div className = "md:mt-52 mt-30 flex justify-center">
                 <div className = "flex justify-center items-center w-[70%] gap-12">
                     <div className = "w-full lg:block hidden">
                         <img src = {Image2} className = ""/>
