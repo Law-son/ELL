@@ -64,7 +64,7 @@ export class Services extends Component {
 
 
             <div className = "relative flex justify-center mt-24">
-                <div className = "md:w-[70%] w-[80%] lg:w-[50%]">
+                <div className = "lg:w-[60%] w-[70%]">
 
                     <div className = "lg:text-[40px] text-[28px] font-[700] text-[#171A1FFF]">The Best Service We Offer</div>
                     <div className = "text-[12px] font-[400] text-[#A3A3A3FF] mt-3 lg:mx-32 md:mx-16">We deliver unmatched quality and tailored solutions, ensuring every experience exceeds your expectations.</div>
@@ -131,7 +131,7 @@ export class Services extends Component {
             </div>
 
             <div className = "mt-24 w-full flex justify-center mb-24">
-                <div className = "lg:w-[50%] w-[70%] items-center bg-[] rounded-[2px] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] bg-[linear-gradient(180deg,#303532_26.68%,#2B2B2B_66.61%)] border-[1px] border-[#B6B6B6FF] py-24 px-12">
+                <div className = "lg:w-[60%] w-[70%] items-center bg-[] rounded-[2px] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] bg-[linear-gradient(180deg,#303532_26.68%,#2B2B2B_66.61%)] border-[1px] border-[#B6B6B6FF] py-24 px-12">
                     <div className = "">
                         <div className = "text-[27px] font-[700] text-[#FFFFFF]">Start your crypto journey</div>
                     </div>
@@ -142,7 +142,7 @@ export class Services extends Component {
             </div>
 
             <div className = "mt-32 flex justify-center">
-                <div className = "flex justify-center items-center w-[70%] gap-12">
+                <div className = "flex justify-center items-center lg:w-[50%] w-[70%] gap-12">
                     <div className = "w-full lg:block hidden">
                         <img src = {Image2} className = ""/>
                     </div>
