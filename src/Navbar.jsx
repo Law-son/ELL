@@ -28,7 +28,7 @@ const Navbar = () => {
         Service
       </NavLink>
       <NavLink
-        to="/contact"
+        to="https://direct.lc.chat/19062191/"
         className={({ isActive }) =>
           isActive ? "text-[#22C480FF]" : "hover:text-[#22C480FF] transition"
         }
