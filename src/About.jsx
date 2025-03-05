@@ -217,7 +217,7 @@ export class About extends Component {
                 </div>
             </div>
 
-            <div className = "relative mt-[1750px]"></div>
+            <div className = "relative mt-[1750px] lg:mt-[1200px]"></div>
 
             <Footer className = "relative"/>
             
