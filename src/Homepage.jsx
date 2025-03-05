@@ -643,7 +643,7 @@ export class Homepage extends Component {
                     <div className = "flex gap-10 items-center justify-center ">
                         <div className = "flex md:gap-1 items-center">
                             <img src = {Logo} className = "w-[115px] h-[94px]"/>   
-                            <div className = "text-[16px] text-[#171A1FFF] -ml-[30px] md:-ml-9 font-[400]">EXCHANGE LIGHT LIMITED</div>
+                            <div className = "text-[12px] text-[#171A1FFF] -ml-[30px] md:-ml-9 font-[400]">EXCHANGE LIGHT LIMITED</div>
                         </div>
                         <div className = "text-[11px] font-[400] text-[#878888FF]">Copyright © 2025. All rights reserved</div>
                     </div>
