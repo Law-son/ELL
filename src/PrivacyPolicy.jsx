@@ -55,7 +55,7 @@ export class PrivacyPolicy extends Component {
             </header>
 
             <div className = "w-full mt-12 flex justify-center">
-                <div className = "w-[50%] flex justify-center">
+                <div className = "md:w-[70%] w-[80%] lg:w-[50%] flex justify-center">
                     <div className = "">
                         <div className = "w-full">
                             <img src = {PP2} className = ""/>
