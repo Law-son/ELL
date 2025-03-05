@@ -142,9 +142,9 @@ export class About extends Component {
                         <div className = "text-[12px] font-[400] text-[#A3A3A3FF] text-left mt-2">Stay informed with real-time market updates and the latest financial insights.</div>
 
                         <div className = "flex justify-center">
-                            <div className = "flex gap-4 mt-1">
-                                <a href = "https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5">
-                                    <div className="flex bg-[#000000FF] border-[1px] border-[#9C9D9D00] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] mt-3 items-center rounded-[2px] px-2 gap-1">
+                            <div className = "flex gap-4 mt-1 w-full">
+                                <a href = "https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5" className = "md:w-[100%] w-full">
+                                    <div className="flex bg-[#000000FF] border-[1px] border-[#9C9D9D00] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] mt-3 items-center rounded-[2px] px-2 gap-1 md:w-[100%] w-full py-1">
                                         <div className = "-ml-2">
                                             <img src = {Play} className = "object-cover"/>
                                         </div>
@@ -155,17 +155,18 @@ export class About extends Component {
                                     </div>
                                 </a>
 
-                                <a href = "https://apps.apple.com/app/easyfx6/id6740037390">
-                                    <div className="flex bg-[#FFFFFFFF] border-[1px] border-[#9C9D9D00] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] mt-3 items-center rounded-[2px] px-4 gap-1  py-[5.2px]">
+                                <a href = "https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5" className = "md:w-[100%] w-full">
+                                    <div className="flex bg-[#FFFFFFFF] border-[1px] border-[#9C9D9D00] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] mt-3 items-center rounded-[2px] px-2 gap-1  py-1">
                                         <div className = "-ml-2">
-                                            <img src = {Apple} className = "object-cover size-6"/>
+                                            <img src = {Play} className = "object-cover"/>
                                         </div>
                                         <div className = "flex flex-col items-center text-center">
-                                            <div className = "text-[5px] font-[400] text-[#434443FF]">Download on the</div>
-                                            <div className = "text-[9px] font-[400] text-[#353535FF]">App Store</div>
+                                            <div className = "text-[5px] font-[400] text-[#434443FF]">Download On the</div>
+                                            <div className = "text-[9px] font-[400] text-[#434443FF]">App Store</div>
                                         </div>
                                     </div>
                                 </a>
+
 
                             </div>
                         </div>
@@ -195,12 +196,15 @@ export class About extends Component {
                         <div className = "text-[12px] font-[400] text-[#A3A3A3FF] text-left mt-3">Receive expert guidance from our seasoned financial advisor, equipped with deep industry expertise and strategic insights. Whether you seek tailored solutions, risk assessment, or informed decision-making support, our advisor is here to help you navigate the markets with confidence.</div>
                     </div>
 
-                    <div className = "w-full flex justify-center mt-10">
-                        <img src = {Image8} className = "object-cover"/>
+                    <div className = "flex items-stretch">
+                        <div className = "w-full flex justify-center mt-10">
+                            <img src = {Image8} className = "object-cover"/>
+                        </div>
+                        <div className = "w-full flex justify-center mt-5">
+                            <img src = {Image9} className = "object-cover"/>
+                        </div>
                     </div>
-                    <div className = "w-full flex justify-center mt-5">
-                        <img src = {Image9} className = "object-cover"/>
-                    </div>
+
                     
                 </div>
             </div>

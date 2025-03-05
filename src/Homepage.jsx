@@ -94,8 +94,8 @@ export class Homepage extends Component {
             <div className = "bg-white w-full relative flex justify-center items-center py-40">
                 <div className = "absolute -top-48 bg-white p-7 lg:w-[70%] w-[90%]">
 
-                    <div className = "relative md:flex gap-4 items-start">
-                        <div className = "flex justify-center items-center">
+                    <div className = "md:flex gap-4 items-stretch">
+                        <div className = "flex justify-center items-center lg:w-[35%]">
                             <div className = "border-2 border-[#E0E0E0FF] shadow-[0px_0px_1px_#171a1f12,0px_0px_2px_#171a1f1F] flex flex-col items-center px-5 py-7 rounded-[6px]">
                                 <img src = {Container} className = ""/>
                                 <div className = "text-[18px] font-[400] text-[#373737FF] mt-5">Radio Trend Chart</div>
@@ -103,15 +103,15 @@ export class Homepage extends Component {
                             </div>
                         </div>
 
-                        <div className = "flex justify-center items-center mt-10 md:mt-0">
-                            <div className = "border-2 border-[#00BD6FFF] shadow-[0px_0px_1px_#171a1f12,0px_0px_2px_#171a1f1F] flex flex-col items-center px-5 py-7 rounded-[6px] bg-[#00BD6FFF]">
+                        <div className = "flex justify-center items-center mt-10 md:mt-0 lg:w-[35%] ">
+                            <div className = "border-2 border-[#00BD6FFF] shadow-[0px_0px_1px_#171a1f12,0px_0px_2px_#171a1f1F] flex flex-col items-center px-5 py-[32px] rounded-[6px] bg-[#00BD6FFF]">
                                 <img src = {Container2} className = ""/>
                                 <div className = "text-[18px] font-[400] text-[#FFFFFFFF] mt-5">Fund Security</div>
                                 <div className = "text-[11px] font-[400] text-[#D0F2E4FF] text-center mt-4">Monitor financial ratios, liquidity, and risk to identify market patterns and improve data-driven investing.</div>
                             </div>
                         </div>
 
-                        <div className = "flex justify-center items-center mt-10 md:mt-0">
+                        <div className = "flex justify-center items-center mt-10 md:mt-0 lg:w-[35%] ">
                             <div className = "border-2 border-[#E0E0E0FF] shadow-[0px_0px_1px_#171a1f12,0px_0px_2px_#171a1f1F] flex flex-col items-center px-5 py-7 rounded-[6px]">
                                 <img src = {Container3} className = ""/>
                                 <div className = "text-[18px] font-[400] text-[#373737FF] mt-5">Standard Deviation</div>

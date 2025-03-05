@@ -54,7 +54,7 @@ const Footer = () => {
             
                                 <div className = "text-left">
                                     <div className = "text-[16px] font-[700] text-[#171A1FFF]">Download App</div>
-                                    <div className = "flex gap-8">
+                                    <div className = "flex gap-8 lg:w-[100%]">
                                         <a href = "https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5">
                                             <div className="flex bg-[#000000FF] border-[1px] border-[#9C9D9D00] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] mt-3 items-center rounded-[2px] px-2 gap-1">
                                                 <div className = "-ml-2">
@@ -83,12 +83,12 @@ const Footer = () => {
                                     </div>
             
                                     <a href = "https://www.exchangelight.net/">
-                                        <div className="bg-[#FFFFFFFF] border-[1px] border-[#9C9D9D00] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] mt-3 items-center rounded-[2px] py-2 px-[18px] gap-1">
-                                                <div className = "-ml-2 flex justify-center">
+                                        <div className="bg-[#FFFFFFFF] border-[1px] border-[#9C9D9D00] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] mt-3 flex flex-col items-center rounded-[2px] py-2 px-[18px] gap-1 lg:w-[100%]">
+                                                <div className = "flex justify-center">
                                                     <img src = {Surf} className = "object-cover size-6"/>
                                                 </div>
-                                                <div className = "flex flex-col items-center mt-2">
-                                                    <div className = "text-[5px] font-[400] text-[#434443FF]">Surf on the</div>
+                                                <div className = "flex flex-col items-center justify-center mt-2">
+                                                    <div className = "text-[8px] font-[400] text-[#434443FF]">Surf on the</div>
                                                     <div className = "text-[9px] font-[400] text-[#353535FF]">Web Version</div>
                                                 </div>
                                         </div>
@@ -154,48 +154,49 @@ const Footer = () => {
                                             </nav>
                                     </div>
             
-                                    <div className = "text-left mt-14">
-                                        <div className = "text-[16px] font-[700] text-[#171A1FFF]">Download App</div>
-            
-                                            <a href = "https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5">
-                                                <div className = "flex gap-8">
-                                                    <div className="flex bg-[#000000FF] border-[1px] border-[#9C9D9D00] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] mt-3 items-center rounded-[2px] px-4 py-1 gap-1">
-                                                        <div className = "-ml-2">
-                                                            <img src = {Play} className = "object-cover"/>
-                                                        </div>
-                                                        <div className = "flex flex-col items-center">
-                                                            <div className = "text-[5px] font-[400] text-[#FFFFFFFF]">GET IT ON</div>
-                                                            <div className = "text-[9px] font-[400] text-[#FFFFFFFF]">Google Play</div>
-                                                        </div>
-                                                    </div>
+                                    <div className = "text-left">
+                                    <div className = "text-[16px] font-[700] text-[#171A1FFF]">Download App</div>
+                                    <div className = "flex gap-8 lg:w-[100%]">
+                                        <a href = "https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5">
+                                            <div className="flex bg-[#000000FF] border-[1px] border-[#9C9D9D00] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] mt-3 items-center rounded-[2px] px-2 gap-1">
+                                                <div className = "-ml-2">
+                                                    <img src = {Play} className = "object-cover"/>
                                                 </div>
-                                            </a>
-            
-                                            <a href = "https://apps.apple.com/app/easyfx6/id6740037390">
-                                                <div className="flex bg-[#FFFFFFFF] border-[1px] border-[#9C9D9D00] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] mt-3 items-center rounded-[2px] px-4 gap-1 py-2">
-                                                        <div className = "-ml-2">
-                                                            <img src = {Apple} className = "object-cover size-6"/>
-                                                        </div>
-                                                        <div className = "flex flex-col items-center">
-                                                            <div className = "text-[5px] font-[400] text-[#434443FF]">Download on the</div>
-                                                            <div className = "text-[9px] font-[400] text-[#353535FF]">App Store</div>
-                                                        </div>
+                                                <div className = "flex flex-col items-center">
+                                                    <div className = "text-[5px] font-[400] text-[#FFFFFFFF]">GET IT ON</div>
+                                                    <div className = "text-[9px] font-[400] text-[#FFFFFFFF]">Google Play</div>
                                                 </div>
-                                            </a>
+                                            </div>
+                                        </a>
             
-                                            <a href = "https://www.exchangelight.net/">
-                                                <div className="flex bg-[#FFFFFFFF] border-[1px] border-[#9C9D9D00] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] mt-3 items-center rounded-[2px] py-2 px-[18px] gap-1 w-max">
-                                                        <div className = "-ml-2">
-                                                            <img src = {Surf} className = "object-cover size-6"/>
-                                                        </div>
-                                                        <div className = "flex flex-col items-center">
-                                                            <div className = "text-[5px] font-[400] text-[#434443FF]">Surf on the</div>
-                                                            <div className = "text-[9px] font-[400] text-[#353535FF]">Web Version</div>
-                                                        </div>
+                                        <a href = "https://apps.apple.com/app/easyfx6/id6740037390">
+                                            <div className="flex bg-[#FFFFFFFF] border-[1px] border-[#9C9D9D00] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] mt-3 items-center rounded-[2px] px-4 gap-1  py-[5.2px]">
+                                                <div className = "-ml-2">
+                                                    <img src = {Apple} className = "object-cover size-6"/>
                                                 </div>
-                                            </a>
+                                                <div className = "flex flex-col items-center">
+                                                    <div className = "text-[5px] font-[400] text-[#434443FF]">Download on the</div>
+                                                    <div className = "text-[9px] font-[400] text-[#353535FF]">App Store</div>
+                                                </div>
+                                            </div>
+                                        </a>
             
+                                        
+                                    </div>
+            
+                                    <a href = "https://www.exchangelight.net/">
+                                        <div className="bg-[#FFFFFFFF] border-[1px] border-[#9C9D9D00] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] mt-3 flex flex-col items-center rounded-[2px] py-2 px-[18px] gap-1 lg:w-[100%]">
+                                                <div className = "flex justify-center">
+                                                    <img src = {Surf} className = "object-cover size-6"/>
+                                                </div>
+                                                <div className = "flex flex-col items-center justify-center mt-2">
+                                                    <div className = "text-[8px] font-[400] text-[#434443FF]">Surf on the</div>
+                                                    <div className = "text-[9px] font-[400] text-[#353535FF]">Web Version</div>
+                                                </div>
                                         </div>
+                                    </a>
+                                    
+                                </div>
                                     </div>
                                 </div>
                                     
@@ -266,7 +267,7 @@ const Footer = () => {
                                             <div className = "text-[16px] font-[700] text-[#171A1FFF]">Download App</div>
                                             <div className = " gap-3">
                                                 <a href = "https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5">
-                                                    <div className = "flex gap-8">
+                                                    <div className = "flex gap-8 w-[100%]">
                                                         <div className="flex bg-[#000000FF] border-[1px] border-[#9C9D9D00] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] mt-3 items-center rounded-[2px] px-4 py-1 gap-1">
                                                             <div className = "-ml-2">
                                                                 <img src = {Play} className = "object-cover"/>
@@ -280,7 +281,7 @@ const Footer = () => {
                                                 </a>
             
                                                 <a href = "https://apps.apple.com/app/easyfx6/id6740037390">
-                                                    <div className="flex bg-[#FFFFFFFF] border-[1px] border-[#9C9D9D00] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] mt-3 items-center rounded-[2px] px-4 gap-1 py-2">
+                                                    <div className="flex bg-[#FFFFFFFF] border-[1px] border-[#9C9D9D00] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] mt-3 items-center rounded-[2px] px-4 gap-1 py-2  w-[100%]">
                                                             <div className = "-ml-2">
                                                                 <img src = {Apple} className = "object-cover size-6"/>
                                                             </div>
@@ -292,8 +293,8 @@ const Footer = () => {
                                                 </a>
             
                                                 <a href = "https://www.exchangelight.net/">
-                                                    <div className="flex bg-[#FFFFFFFF] border-[1px] border-[#9C9D9D00] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] mt-3 items-center rounded-[2px] py-2 px-[18px] gap-1 w-max">
-                                                            <div className = "-ml-2">
+                                                    <div className="flex bg-[#FFFFFFFF] border-[1px] border-[#9C9D9D00] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] mt-3 items-center rounded-[2px] py-2 px-[18px] gap-1 w-[100%]">
+                                                            <div className = "">
                                                                 <img src = {Surf} className = "object-cover size-6"/>
                                                             </div>
                                                             <div className = "flex flex-col items-center">
