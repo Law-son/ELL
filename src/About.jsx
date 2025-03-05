@@ -144,7 +144,7 @@ export class About extends Component {
                             <div className = "text-left mt-5 lg:mt-0">
                                 <div className = "text-[16px] font-[700] text-[#171A1FFF] text-center lg:text-left">Download App</div>
 
-                                <div className = "text-[12px] font-[400] text-[#A3A3A3FF] text-left mt-2">Stay informed with real-time market updates and the latest financial insights.</div>
+                                <div className = "text-[12px] font-[400] text-[#A3A3A3FF] text-center lg:text-left mt-2">Stay informed with real-time market updates and the latest financial insights.</div>
 
                                 <div className = "flex justify-center">
                                     <div className = "flex gap-4 mt-3 w-full">
