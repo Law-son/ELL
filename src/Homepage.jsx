@@ -95,7 +95,7 @@ export class Homepage extends Component {
                 <div className = "absolute -top-48 bg-white p-7 lg:w-[70%] w-[90%]">
 
                     <div className = "md:flex gap-4 items-stretch">
-                        <div className = "flex justify-center items-center md:w-[35%]">
+                        <div className = "flex justify-center items-center md:w-[35%] h-full">
                             <div className = "border-2 border-[#E0E0E0FF] shadow-[0px_0px_1px_#171a1f12,0px_0px_2px_#171a1f1F] flex flex-col items-center px-5 py-7 rounded-[6px]">
                                 <img src = {Container} className = ""/>
                                 <div className = "text-[18px] font-[400] text-[#373737FF] mt-5">Radio Trend Chart</div>
@@ -103,7 +103,7 @@ export class Homepage extends Component {
                             </div>
                         </div>
 
-                        <div className = "flex justify-center items-center mt-10 md:mt-0 md:w-[35%] ">
+                        <div className = "flex justify-center items-center mt-10 md:mt-0 md:w-[35%]  h-full">
                             <div className = "border-2 border-[#00BD6FFF] shadow-[0px_0px_1px_#171a1f12,0px_0px_2px_#171a1f1F] flex flex-col items-center px-5 py-[32px] rounded-[6px] bg-[#00BD6FFF]">
                                 <img src = {Container2} className = ""/>
                                 <div className = "text-[18px] font-[400] text-[#FFFFFFFF] mt-5">Fund Security</div>
@@ -111,7 +111,7 @@ export class Homepage extends Component {
                             </div>
                         </div>
 
-                        <div className = "flex justify-center items-center mt-10 md:mt-0 md:w-[35%] ">
+                        <div className = "flex justify-center items-center mt-10 md:mt-0 md:w-[35%]  h-full">
                             <div className = "border-2 border-[#E0E0E0FF] shadow-[0px_0px_1px_#171a1f12,0px_0px_2px_#171a1f1F] flex flex-col items-center px-5 py-7 rounded-[6px]">
                                 <img src = {Container3} className = ""/>
                                 <div className = "text-[18px] font-[400] text-[#373737FF] mt-5">Standard Deviation</div>
