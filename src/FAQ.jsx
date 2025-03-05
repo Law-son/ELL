@@ -71,7 +71,7 @@ export class FAQ extends Component {
 
             <div className = "flex justify-center items-center mt-12">
                 <div className = "flex justify-center items-center w-[50%]">
-                    <div className = "text-[27px] font-[700] text-[#171A1FFF]">Frequently Asked Questions</div>
+                    <div className = "md:text-[27px] text-[18px] font-[700] text-[#171A1FFF]">Frequently Asked Questions</div>
                 </div>
             </div>
 
