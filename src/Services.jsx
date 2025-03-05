@@ -71,7 +71,7 @@ export class Services extends Component {
 
                     <div className = "flex justify-center mt-16">
                         <div className = "lg:flex justify-baseline gap-2">
-                            <div className = "bg-[#FDFCFDFF] border-[1px] border-[#E5E5E5FF] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] py-8 px-7">
+                            <div className = "bg-[#FDFCFDFF] border-[1px] border-[#E5E5E5FF] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] py-8 px-7 lg:w-[35%]">
                                 <div className = "flex justify-center">
                                     <img src = {Button}/>
                                 </div>
@@ -79,7 +79,7 @@ export class Services extends Component {
                                 <div className = "text-[12px] font-[400] text-[#8A8A8AFF] mt-4">Real-time market data and powerful analytics enable strategic decision-making on a variety of stocks, currency, and commodities.
                                 </div>
                             </div>
-                            <div className = "bg-[#FDFCFDFF] border-[1px] border-[#E5E5E5FF] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] py-8 px-7 mt-5 lg:mt-0">
+                            <div className = "bg-[#FDFCFDFF] border-[1px] border-[#E5E5E5FF] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] py-8 px-7 mt-5 lg:mt-0 lg:w-[35%]">
                                 <div className = "flex justify-center">
                                     <img src = {Button2}/>
                                 </div>
@@ -87,7 +87,7 @@ export class Services extends Component {
                                 <div className = "text-[12px] font-[400] text-[#8A8A8AFF] mt-4">In volatile markets, safeguard your investments and optimize returns with cutting-edge financial tools and risk management.
                                 </div>
                             </div>
-                            <div className = "bg-[#FDFCFDFF] border-[1px] border-[#E5E5E5FF] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] py-8 px-7 mt-5 lg:mt-0">
+                            <div className = "bg-[#FDFCFDFF] border-[1px] border-[#E5E5E5FF] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] py-8 px-7 mt-5 lg:mt-0  lg:w-[35%]">
                                 <div className = "flex justify-center">
                                     <img src = {Button3}/>
                                 </div>
@@ -100,7 +100,7 @@ export class Services extends Component {
 
                     <div className = "flex justify-center mt-5">
                         <div className = "lg:flex justify-baseline gap-2">
-                            <div className = "bg-[#FDFCFDFF] border-[1px] border-[#E5E5E5FF] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] py-8 px-7 mt-5 lg:mt-0">
+                            <div className = "bg-[#FDFCFDFF] border-[1px] border-[#E5E5E5FF] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] py-8 px-7 mt-5 lg:mt-0  lg:w-[35%]">
                                 <div className = "flex justify-center">
                                     <img src = {Button4}/>
                                 </div>
@@ -108,7 +108,7 @@ export class Services extends Component {
                                 <div className = "text-[12px] font-[400] text-[#8A8A8AFF] mt-4">Ideal for those who choose risk-managed investing and capital preservation over aggressive growth.
                                 </div>
                             </div>
-                            <div className = "bg-[#FDFCFDFF] border-[1px] border-[#E5E5E5FF] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] py-8 px-7 mt-5 lg:mt-0">
+                            <div className = "bg-[#FDFCFDFF] border-[1px] border-[#E5E5E5FF] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] py-8 px-7 mt-5 lg:mt-0  lg:w-[35%]">
                                 <div className = "flex justify-center">
                                     <img src = {Button5}/>
                                 </div>
@@ -116,7 +116,7 @@ export class Services extends Component {
                                 <div className = "text-[12px] font-[400] text-[#8A8A8AFF] mt-4">Always trust our strong data security protocols and modern encryption to protect your personal and financial data.
                                 </div>
                             </div>
-                            <div className = "bg-[#00BD6FFF] border-[1px] border-[#E5E5E5FF] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] py-8 px-7 mt-5 lg:mt-0">
+                            <div className = "bg-[#00BD6FFF] border-[1px] border-[#E5E5E5FF] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] py-8 px-7 mt-5 lg:mt-0  lg:w-[35%]">
                                 <div className = "flex justify-center">
                                     <img src = {Button6}/>
                                 </div>
