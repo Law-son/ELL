@@ -24,7 +24,7 @@ export class Terms extends Component {
   render() {
     return (
         <div>
-            <header className = "pt-[26px] bg-[#f4f8f6] pb-[100px]">
+            <header className = "pt-[26px] bg-[#f4f8f6] md:pb-[100px]">
                 <div className = "md:flex items-center justify-center text-[#818281FF] md:gap-10 gap-5 text-[10px]">
                                     <div className = "flex gap-2 items-center justify-center">
                                         <img src = {Timer} className = "text-[#1DD75BFF] size-4"/>
@@ -55,7 +55,7 @@ export class Terms extends Component {
             </header>
 
             <div className = "w-full mt-12 flex justify-center">
-                <div className = "w-[50%] flex justify-center">
+                <div className = "md:w-[70%] w-[80%] lg:w-[50%] flex justify-center">
                     <div className = "">
                         <div className = "w-full">
                             <img src = {TC1} className = ""/>

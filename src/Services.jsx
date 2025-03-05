@@ -35,7 +35,7 @@ export class Services extends Component {
   render() {
     return (
         <div>
-            <header className = "pt-[26px] bg-[#f4f8f6] pb-[100px]">
+            <header className = "pt-[26px] bg-[#f4f8f6] md:pb-[100px]">
                 <div className = "md:flex items-center justify-center text-[#818281FF] md:gap-10 gap-5 text-[10px]">
                                     <div className = "flex gap-2 items-center justify-center">
                                         <img src = {Timer} className = "text-[#1DD75BFF] size-4"/>
@@ -67,7 +67,7 @@ export class Services extends Component {
 
 
             <div className = "relative flex justify-center mt-24">
-                <div className = "w-[50%]">
+                <div className = "md:w-[70%] w-[80%] lg:w-[50%]">
 
                     <div className = "lg:text-[40px] text-[28px] font-[700] text-[#171A1FFF]">The Best Service We Offer</div>
                     <div className = "text-[12px] font-[400] text-[#A3A3A3FF] mt-3 lg:mx-32 md:mx-16">We deliver unmatched quality and tailored solutions, ensuring every experience exceeds your expectations.</div>
