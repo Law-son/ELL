@@ -591,10 +591,10 @@ export class Homepage extends Component {
                             </div>
                         </div>
 
-                        <div className = "mt-[20px] flex justify-center px-5">
+                        <div className = "mt-[14px] flex justify-center px-5">
                             <div className = "text-left mt-14 flex flex-col justify-center items-center">
                                 <div className = "text-[16px] font-[700] text-[#171A1FFF]">Download App</div>
-                                <div className = "flex gap-3">
+                                <div className = " gap-3">
                                     <a href = "#">
                                         <div className = "flex gap-8">
                                             <div className="flex bg-[#000000FF] border-[1px] border-[#9C9D9D00] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] mt-3 items-center rounded-[2px] px-4 py-1 gap-1">
