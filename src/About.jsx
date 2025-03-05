@@ -158,7 +158,7 @@ export class About extends Component {
                                 <a href = "https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5" className = "md:w-[100%] w-full">
                                     <div className="flex bg-[#FFFFFFFF] border-[1px] border-[#9C9D9D00] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] mt-3 items-center rounded-[2px] px-2 gap-1  py-1">
                                         <div className = "-ml-2">
-                                            <img src = {Play} className = "object-cover"/>
+                                            <img src = {Apple} className = "object-cover"/>
                                         </div>
                                         <div className = "flex flex-col items-center text-center">
                                             <div className = "text-[5px] font-[400] text-[#434443FF]">Download On the</div>
@@ -188,19 +188,19 @@ export class About extends Component {
             </div>
 
             <div className = "md:mt-32 mt-24 w-full relative flex justify-center">
-                <div className = "lg:flex justify-center items-center w-[70%] lg:w-[50%] gap-5">
-                    <div className = "">
+                <div className = "lg:flex justify-center items-center w-[70%] lg:w-[50%] gap-10">
+                    <div className = "lg:w-[50%]">
                         <div className = "text-[27px] font-[700] text-[#353535FF] lg:text-left ">Meet Our Expert 
                         Advisor
                         </div>
                         <div className = "text-[12px] font-[400] text-[#A3A3A3FF] text-left mt-3">Receive expert guidance from our seasoned financial advisor, equipped with deep industry expertise and strategic insights. Whether you seek tailored solutions, risk assessment, or informed decision-making support, our advisor is here to help you navigate the markets with confidence.</div>
                     </div>
 
-                    <div className = "flex items-stretch">
-                        <div className = "w-full flex justify-center mt-10">
+                    <div className = "lg:flex items-start w-full gap-4">
+                        <div className = "w-full flex justify-center mt-10 lg:mt-5 lg:w-[300%]">
                             <img src = {Image8} className = "object-cover"/>
                         </div>
-                        <div className = "w-full flex justify-center mt-5">
+                        <div className = "w-full flex justify-center mt-5 lg:w-[300%]">
                             <img src = {Image9} className = "object-cover"/>
                         </div>
                     </div>
