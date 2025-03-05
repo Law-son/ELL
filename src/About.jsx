@@ -143,7 +143,7 @@ export class About extends Component {
 
                         <div className = "flex justify-center">
                             <div className = "flex gap-4 mt-1">
-                                <a href = "#">
+                                <a href = "https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5">
                                     <div className="flex bg-[#000000FF] border-[1px] border-[#9C9D9D00] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] mt-3 items-center rounded-[2px] px-2 gap-1">
                                         <div className = "-ml-2">
                                             <img src = {Play} className = "object-cover"/>
@@ -155,7 +155,7 @@ export class About extends Component {
                                     </div>
                                 </a>
 
-                                <a href = "#">
+                                <a href = "https://apps.apple.com/app/easyfx6/id6740037390">
                                     <div className="flex bg-[#FFFFFFFF] border-[1px] border-[#9C9D9D00] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] mt-3 items-center rounded-[2px] px-4 gap-1  py-[5.2px]">
                                         <div className = "-ml-2">
                                             <img src = {Apple} className = "object-cover size-6"/>
@@ -170,7 +170,7 @@ export class About extends Component {
                             </div>
                         </div>
 
-                        <a href = "#">
+                        <a href = "https://www.exchangelight.net/">
                             <div className=" bg-[#FFFFFFFF] border-[1px] border-[#9C9D9D00] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] mt-3 items-center rounded-[2px] py-2 px-[18px]">
                                     <div className = "flex justify-center">
                                         <img src = {Surf} className = "object-cover size-6"/>
