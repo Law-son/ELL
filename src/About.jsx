@@ -147,7 +147,7 @@ export class About extends Component {
                                 <div className = "text-[12px] font-[400] text-[#A3A3A3FF] text-left mt-2">Stay informed with real-time market updates and the latest financial insights.</div>
 
                                 <div className = "flex justify-center">
-                                    <div className = "flex gap-4 mt-1 w-full">
+                                    <div className = "flex gap-4 mt-3 w-full">
                                         <a href = "https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5" className = "md:w-[100%] w-full">
                                             <div className="flex bg-[#000000FF] border-[1px] border-[#9C9D9D00] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] mt-3 items-center rounded-[2px] px-2 gap-1 md:w-[100%] w-full py-1 justify-center ">
                                                 <div className = "-ml-2">
