@@ -213,7 +213,7 @@ export class Homepage extends Component {
                 </div>
             </div>
 
-            <div className = "bg-[#f4f8f6] mt-56 w-full relative pt-16 flex justify-center pb-52 ">
+            <div className = "bg-[#f4f8f6] md:mt-56 mt-36 w-full relative pt-16 flex justify-center pb-52 ">
                 <div className = "w-[70%] lg:flex relative gap-12 justify-center items-center">
                     <div className = "text-left">
                         <div className = "text-[32px] font-[700] text-[#323332FF] text-center lg:text-left">Financial Markets</div>
