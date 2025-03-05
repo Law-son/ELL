@@ -154,7 +154,7 @@ const Footer = () => {
                                             </nav>
                                     </div>
             
-                                    <div className = "text-left mt-[60px]">
+                                    <div className = "text-left mt-[56px]">
                                     <div className = "text-[16px] font-[700] text-[#171A1FFF]">Download App</div>
                                     <div className = "flex gap-8 lg:w-[100%]">
                                         <a href = "https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5">
