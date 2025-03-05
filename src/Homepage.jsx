@@ -44,12 +44,12 @@ export class Homepage extends Component {
     return (
         <div>
             <header className = "pt-[26px] bg-[#f4f8f6] pb-[300px]">
-                <div className = "flex items-center justify-center text-[#818281FF] md:gap-10 gap-5 text-[10px]">
-                    <div className = "flex gap-2 items-center">
+                <div className = "md:flex items-center justify-center text-[#818281FF] md:gap-10 gap-5 text-[10px]">
+                    <div className = "flex gap-2 items-center justify-center">
                         <img src = {Timer} className = "text-[#1DD75BFF] size-4"/>
                         <div className = "">Everyday Available 24/7</div>
                     </div>
-                    <div className = "flex gap-2 items-center">
+                    <div className = "flex gap-2 items-center justify-center mt-2 md:mt-0">
                         <img src = {Location} className = "text-[#1DD75BFF] size-4"/>
                         <div className = "">30 Millbank, London, United Kingdom</div>
                     </div>
