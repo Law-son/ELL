@@ -329,7 +329,7 @@ export class Homepage extends Component {
             </div>
 
             <div className = "mt-24 w-full flex justify-center mb-24">
-                <div className = "lg:w-[60%] w-[70%] items-center bg-[] rounded-[2px] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] bg-[linear-gradient(180deg,#303532_26.68%,#2B2B2B_66.61%)] border-[1px] border-[#B6B6B6FF] py-24 px-12">
+                <div className = "lg:w-[60%] w-[70%] items-center bg-[] rounded-[2px] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] bg-[linear-gradient(180deg,#303532_26.68%,#2B2B2B_66.61%)] border-[1px] border-[#B6B6B6FF] py-24 md:px-12 px-5">
                     <div className = "">
                         <div className = "text-[27px] font-[700] text-[#FFFFFF]">Start your crypto journey</div>
                     </div>
