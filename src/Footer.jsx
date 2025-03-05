@@ -11,8 +11,8 @@ const Footer = () => {
   return (
     <div>
         <footer className = "w-full bg-[#EAEEECFF] pt-20 pb-10 hidden lg:block mt-28">
-                            <div className = "flex justify-center">
-                            <div className = "lg:flex gap-12 items-start md:mx-10">
+                            <div className = "flex justify-center items-start">
+                            <div className = "lg:flex gap-12 md:mx-10 items-start">
                                 <div className = "text-left">
                                     <div className = "text-[12px] font-[700] text-[#171A1FFF]">About Company</div>
                                     <div className = "flex items-center mt-3 gap-2">
@@ -53,7 +53,7 @@ const Footer = () => {
                                 </div>
             
                                 <div className = "text-left">
-                                    <div className = "text-[16px] font-[700] text-[#171A1FFF]">Download App</div>
+                                    <div className = "text-[12px] font-[700] text-[#171A1FFF]">Download App</div>
                                     <div className = "flex gap-8 lg:w-[100%]">
                                         <a href = "https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5">
                                             <div className="flex bg-[#000000FF] border-[1px] border-[#9C9D9D00] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] mt-3 items-center rounded-[2px] px-2 gap-1">
@@ -110,7 +110,7 @@ const Footer = () => {
                         </footer>
                         
                         <footer className = "w-full bg-[#EAEEECFF] pt-20 pb-10 lg:hidden md:block hidden mt-16">
-                            <div className = "md:flex justify-center gap-10 mx-12 md:mx-0">
+                            <div className = "md:flex justify-center items-start gap-10 mx-12 md:mx-0">
                                 <div className = "md:mx-10">
                                     <div className = "text-left">
                                         <div className = "text-[12px] font-[700] text-[#171A1FFF]">About Company</div>
@@ -155,7 +155,7 @@ const Footer = () => {
                                     </div>
             
                                     <div className = "text-left mt-[56px]">
-                                    <div className = "text-[16px] font-[700] text-[#171A1FFF]">Download App</div>
+                                    <div className = "text-[12px] font-[700] text-[#171A1FFF]">Download App</div>
                                     <div className = "flex gap-3 lg:w-[100%]">
                                         <a href = "https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5">
                                             <div className="flex bg-[#000000FF] border-[1px] border-[#9C9D9D00] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] mt-3 items-center  rounded-[2px] px-2 gap-1">
@@ -264,7 +264,7 @@ const Footer = () => {
             
                                     <div className = "mt-[14px] flex justify-center px-5">
                                         <div className = "text-left mt-14 flex flex-col justify-center items-center">
-                                            <div className = "text-[16px] font-[700] text-[#171A1FFF]">Download App</div>
+                                            <div className = "text-[12px] font-[700] text-[#171A1FFF]">Download App</div>
                                             <div className = " gap-3">
                                                 <a href = "https://play.google.com/store/apps/details?id=com.owineioqq.abmlnt5">
                                                     <div className = "flex gap-8 w-[100%]">
