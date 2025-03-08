@@ -106,7 +106,7 @@ export class Platform extends Component {
                                 <div className="flex gap-4 mt-1 w-full">
                                     <a href="https://www.exchangelight.net/" className="md:w-[50%] w-full h-full">
                                         <div className="bg-[#FFFFFFFF] border-[1px] border-[#9C9D9D00] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] mt-3 flex items-center rounded-[2px] py-[8px] px-3 gap-1">
-                                            <div className="-ml-2 flex justify-center">
+                                            <div className=" flex justify-center p-[2px]">
                                                 <img src={Surf} className="object-cover size-6" />
                                             </div>
                                             <div className="flex flex-col items-center justify-center">

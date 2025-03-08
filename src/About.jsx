@@ -173,28 +173,28 @@ export class About extends Component {
                                             </a>
                                         </div>
                                         <div className="flex gap-4 mt-1 w-full">
-                                                <a href="https://www.exchangelight.net/" className="md:w-[50%] w-full h-full">
-                                                    <div className="bg-[#FFFFFFFF] border-[1px] border-[#9C9D9D00] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] mt-3 flex items-center rounded-[2px] py-[8px] px-3 gap-1">
-                                                        <div className="-ml-2 flex justify-center">
-                                                            <img src={Surf} className="object-cover size-6" />
-                                                        </div>
-                                                        <div className="flex flex-col items-center justify-center">
-                                                            <div className="text-[8px] font-[400] text-[#434443FF]">Surf on the</div>
-                                                            <div className="text-[9px] font-[400] text-[#353535FF]">Web Version</div>
-                                                        </div>
+                                            <a href="https://www.exchangelight.net/" className="md:w-[50%] w-full h-full">
+                                                <div className="bg-[#FFFFFFFF] border-[1px] border-[#9C9D9D00] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] mt-3 flex items-center rounded-[2px] py-[8px] px-3 gap-1">
+                                                    <div className=" flex justify-center p-[2px]">
+                                                        <img src={Surf} className="object-cover size-6" />
                                                     </div>
-                                                </a>
-                                                <a href="https://www.exchangelight.net/" className="md:w-[50%] w-full invisible">
-                                                    <div className="bg-[#FFFFFFFF] border-[1px] border-[#9C9D9D00] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] mt-3 flex items-center rounded-[2px] py-[5.2px] px-3 gap-1">
-                                                        <div className="-ml-2 flex justify-center">
-                                                            <img src={Surf} className="object-cover size-6" />
-                                                        </div>
-                                                        <div className="flex flex-col items-center justify-center">
-                                                            <div className="text-[8px] font-[400] text-[#434443FF]">Surf on the</div>
-                                                            <div className="text-[9px] font-[400] text-[#353535FF]">Web Version</div>
-                                                        </div>
+                                                    <div className="flex flex-col items-center justify-center">
+                                                        <div className="text-[8px] font-[400] text-[#434443FF]">Surf on the</div>
+                                                        <div className="text-[9px] font-[400] text-[#353535FF]">Web Version</div>
                                                     </div>
-                                                </a>
+                                                </div>
+                                            </a>
+                                            <a href="https://www.exchangelight.net/" className="md:w-[50%] w-full invisible">
+                                                <div className="bg-[#FFFFFFFF] border-[1px] border-[#9C9D9D00] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] mt-3 flex items-center rounded-[2px] py-[5.2px] px-3 gap-1">
+                                                    <div className="-ml-2 flex justify-center">
+                                                        <img src={Surf} className="object-cover size-6" />
+                                                    </div>
+                                                    <div className="flex flex-col items-center justify-center">
+                                                        <div className="text-[8px] font-[400] text-[#434443FF]">Surf on the</div>
+                                                        <div className="text-[9px] font-[400] text-[#353535FF]">Web Version</div>
+                                                    </div>
+                                                </div>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
