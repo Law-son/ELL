@@ -97,7 +97,7 @@ export class Homepage extends Component {
                         <div className="flex flex-col md:flex-row gap-4 items-stretch">
                             <div className="flex justify-center items-center md:w-[35%]">
                                 <div className="h-full border-2 border-[#E0E0E0FF] shadow-[0px_0px_1px_#171a1f12,0px_0px_2px_#171a1f1F] flex flex-col items-center px-5 py-7 rounded-[6px]">
-                                    <img src={Container} alt="Radio Trend Chart" />
+                                    <img src={Container} alt="Radio Trend Chart" width="80" height="80" />
                                     <div className="text-[18px] font-[400] text-[#373737FF] mt-5">Radio Trend Chart</div>
                                     <div className="text-[11px] font-[400] text-[#8B8B8BFF] text-center mt-4">
                                         Track key financial indicators and liquidity measurements to spot market trends and improve strategic decision-making.
@@ -107,7 +107,7 @@ export class Homepage extends Component {
 
                             <div className="flex justify-center items-center md:w-[35%]">
                                 <div className="h-full border-2 border-[#00BD6FFF] shadow-[0px_0px_1px_#171a1f12,0px_0px_2px_#171a1f1F] flex flex-col items-center px-5 py-7 rounded-[6px] bg-[#00BD6FFF]">
-                                    <img src={Container2} alt="Fund Security" />
+                                    <img src={Container2} alt="Fund Security" width="80" height="80" />
                                     <div className="text-[18px] font-[400] text-[#FFFFFFFF] mt-5">Fund Security</div>
                                     <div className="text-[11px] font-[400] text-[#D0F2E4FF] text-center mt-4">
                                         Monitor financial ratios, liquidity, and risk to identify market patterns and improve data-driven investing.
@@ -117,7 +117,7 @@ export class Homepage extends Component {
 
                             <div className="flex justify-center items-center md:w-[35%]">
                                 <div className="h-full border-2 border-[#E0E0E0FF] shadow-[0px_0px_1px_#171a1f12,0px_0px_2px_#171a1f1F] flex flex-col items-center px-5 py-7 rounded-[6px]">
-                                    <img src={Container3} alt="Standard Deviation" />
+                                    <img src={Container3} alt="Standard Deviation" width="80" height="80" />
                                     <div className="text-[18px] font-[400] text-[#373737FF] mt-5">Standard Deviation</div>
                                     <div className="text-[11px] font-[400] text-[#8B8B8BFF] text-center mt-4">
                                         To assess portfolio risk, analyze market volatility, diversify assets, and optimize investment strategies for long-term growth.
