@@ -243,7 +243,7 @@ export class Homepage extends Component {
                             <div className="lg:flex justify-baseline gap-2">
                                 <div className="bg-[#FDFCFDFF] border-[1px] border-[#E5E5E5FF] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] py-8 px-7 lg:w-[35%]">
                                     <div className="flex justify-center">
-                                        <img src={Button} />
+                                        <img src={Button} width="50" height="50" />
                                     </div>
                                     <div className="text-[14px] font-[400] text-[#393939FF] mt-5">Financial Trading</div>
                                     <div className="text-[12px] font-[400] text-[#8A8A8AFF] mt-4">Real-time market data and powerful analytics enable strategic decision-making on a variety of stocks, currency, and commodities.
@@ -251,7 +251,7 @@ export class Homepage extends Component {
                                 </div>
                                 <div className="bg-[#FDFCFDFF] border-[1px] border-[#E5E5E5FF] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] py-8 px-7 mt-5 lg:mt-0 lg:w-[35%]">
                                     <div className="flex justify-center">
-                                        <img src={Button2} />
+                                        <img src={Button2} width="50" height="50" />
                                     </div>
                                     <div className="text-[14px] font-[400] text-[#393939FF] mt-5">Manage Risk</div>
                                     <div className="text-[12px] font-[400] text-[#8A8A8AFF] mt-4">In volatile markets, safeguard your investments and optimize returns with cutting-edge financial tools and risk management.
@@ -259,7 +259,7 @@ export class Homepage extends Component {
                                 </div>
                                 <div className="bg-[#FDFCFDFF] border-[1px] border-[#E5E5E5FF] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] py-8 px-7 mt-5 lg:mt-0 lg:w-[35%]">
                                     <div className="flex justify-center">
-                                        <img src={Button3} />
+                                        <img src={Button3} width="50" height="50" />
                                     </div>
                                     <div className="text-[14px] font-[400] text-[#393939FF] mt-5">Trading Psychology</div>
                                     <div className="text-[12px] font-[400] text-[#8A8A8AFF] mt-4">In stressful markets, professional trading psychology helps you stay calm, control emotions, and make sensible, data-driven judgments.
@@ -272,7 +272,7 @@ export class Homepage extends Component {
                             <div className="lg:flex justify-baseline gap-2">
                                 <div className="bg-[#FDFCFDFF] border-[1px] border-[#E5E5E5FF] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] py-8 px-7 mt-5 lg:mt-0 lg:w-[35%]">
                                     <div className="flex justify-center">
-                                        <img src={Button4} />
+                                        <img src={Button4} width="50" height="50" />
                                     </div>
                                     <div className="text-[14px] font-[400] text-[#393939FF] mt-5">Safe Account</div>
                                     <div className="text-[12px] font-[400] text-[#8A8A8AFF] mt-4">Ideal for those who choose risk-managed investing and capital preservation over aggressive growth.
@@ -280,7 +280,7 @@ export class Homepage extends Component {
                                 </div>
                                 <div className="bg-[#FDFCFDFF] border-[1px] border-[#E5E5E5FF] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] py-8 px-7 mt-5 lg:mt-0 lg:w-[35%]">
                                     <div className="flex justify-center">
-                                        <img src={Button5} />
+                                        <img src={Button5} width="50" height="50" />
                                     </div>
                                     <div className="text-[14px] font-[400] text-[#393939FF] mt-5">Data Privacy</div>
                                     <div className="text-[12px] font-[400] text-[#8A8A8AFF] mt-4">Always trust our strong data security protocols and modern encryption to protect your personal and financial data.
@@ -288,7 +288,7 @@ export class Homepage extends Component {
                                 </div>
                                 <div className="bg-[#00BD6FFF] border-[1px] border-[#E5E5E5FF] shadow-[0px_0px_1px_#171a1f12, 0px_0px_2px_#171a1f1F] py-8 px-7 mt-5 lg:mt-0 lg:w-[35%]">
                                     <div className="flex justify-center">
-                                        <img src={Button6} />
+                                        <img src={Button6} width="50" height="50" />
                                     </div>
                                     <div className="text-[14px] font-[400] text-[#FDFCFDFF] mt-5">Customer Support</div>
                                     <div className="text-[12px] font-[400] text-[#C8F1E0FF] mt-4">Our committed support team provides rapid, reliable answers to your questions and issues anytime.
